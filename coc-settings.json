@@ -1,0 +1,27 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python"
+  ],
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ],
+  "languageserver": {
+    "kotlin": {
+      "command": "/usr/share/kotlin/kotlin-language-server/bin/kotlin-language-server",
+      "filetypes": [
+        "kotlin"
+      ]
+    }
+  }
+}

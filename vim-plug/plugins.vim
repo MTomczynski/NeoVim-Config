@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     " CoC
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'udalov/kotlin-vim'
     
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
