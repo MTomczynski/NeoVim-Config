@@ -54,3 +54,6 @@ nnoremap <leader>p "+p
 nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
+
+nnoremap <space>/ :Commentary<CR>
+vnoremap <space>/ :Commentary<CR>

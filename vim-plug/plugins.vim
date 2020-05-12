@@ -19,15 +19,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " CoC
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'udalov/kotlin-vim'
-    
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
-
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-
     Plug 'joshdick/onedark.vim'
+    Plug 'tpope/vim-commentary'
 
 call plug#end()
