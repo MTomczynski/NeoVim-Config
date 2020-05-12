@@ -4,5 +4,7 @@ source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/keys/which-key.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
+source $HOME/.config/nvim/themes/airline.vim
+source $HOME/.config/nvim/themes/onedark.vim
 
 autocmd FileType json syntax match Comment +\/\/.\+$+
