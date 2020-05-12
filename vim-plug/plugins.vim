@@ -27,5 +27,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'joshdick/onedark.vim'
     Plug 'tpope/vim-commentary'
+    Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'junegunn/rainbow_parentheses.vim'
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
 call plug#end()
