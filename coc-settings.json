@@ -16,12 +16,23 @@
     "UltiSnips",
     "~/.config/nvim/utils/snips"
   ],
-  "languageserver": {
-    "kotlin": {
-      "command": "/usr/share/kotlin/kotlin-language-server/bin/kotlin-language-server",
-      "filetypes": [
-        "kotlin"
-      ]
-    }
+  //  "languageserver": {
+  //    "kotlin": {
+  //      "command": "/usr/share/kotlin/kotlin-language-server/bin/kotlin-language-server",
+  //      "filetypes": [
+  //        "kotlin"
+  //      ]
+  //    }
+  //  },
+  // explorer
+  "explorer.width": 30,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings": {
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
+    "v": "open:vsplit"
   }
 }

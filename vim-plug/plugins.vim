@@ -17,8 +17,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Cheatsheet with key-bindings
     Plug 'liuchengxu/vim-which-key'
     " CoC
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    Plug 'udalov/kotlin-vim'
+    "Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    "Plug 'udalov/kotlin-vim'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -30,5 +30,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     Plug 'junegunn/rainbow_parentheses.vim'
     Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'justinmk/vim-sneak'
+    Plug 'unblevable/quick-scope'
+
+    " Android development
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    Plug 'beeender/Comrade'
 
 call plug#end()
